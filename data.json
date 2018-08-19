@@ -1,0 +1,49 @@
+{
+	"basics":{
+		"name":"prasanthi",
+		"role":"student",
+		"mobile":"+91 7854068988",
+		"e-mail":"prasanthi.bodapati09@gmail.com"
+	},
+	"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+	{
+      "degree":"B.Tech(Computer Science and engineering)",
+      "institute":"Vignan's Nirula",
+      "Data":["2016-2020","88%"]
+	},
+	{
+      "degree":"Intermediate(MPC)",
+      "institute":"Sri Chaitanya Junior College",
+      "Data":["2014-2016","97%"]
+	},
+	{
+      "degree":"S.S.C",
+      "institute":"Akshara High School",
+      "Data":["2013-2014","98%"]
+	}
+	],
+	"skills":[
+	
+	{
+      "title":"Programming Languages",
+      "content":["python","c","java","R","c++"]
+	},
+	{
+      "title":"data base",
+      "content":["SQL","oracle","my Sql"]
+	},
+	{
+      "title":"web technologies",
+      "content":["HTML","XML","java script","css"]
+	},
+	{
+      "title":"operating systems",
+      "content":["windows","linux","unix"]
+	}
+  ]
+
+	
+}

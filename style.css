@@ -1,0 +1,140 @@
+table{
+	width:100%;
+	border-collapse: collapse;
+	box-shadow:3px 3px 3px #ddd;
+}
+tr:nth-child(even){
+	background:#ddd;
+}
+td,
+th{
+	padding:1%;
+}
+.skDiv{
+	width:100%;
+	border-left:3px solid #0e4dba;
+	padding:1%;
+	margin:1%;
+}
+span{
+	background: #0e4dba;
+	color:#fff;
+	border:1px solid #082d6e
+	box-shadow:3px 3px 3px #ddd;
+	margin:1%;
+	padding: 1%;
+	border-radius:5px;
+}
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	background:#ff33ea;
+}
+.child1{
+	width:30%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:white;
+}
+.child2{
+	width:70%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background: grey;
+}
+h1{
+	color:#1b55e9;
+	text-align:center;
+}
+.profile{
+  		display:block;
+  		margin-left:auto;
+  		margin-right:auto;
+  		width:200px;
+  		height:auto;
+  	}
+a{
+	text-decoration: none;
+	font-size:22px;
+}
+p{
+	font-size:20px;
+}
+/*small screens*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .parent{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background:#ff33ea;
+}
+.child1{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:pink;
+}
+.child2{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background: white;
+}
+  
+}
+/*medium sereens*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.parent{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background:#ff33ea;
+}
+.child1{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:skyblue;
+}
+.child2{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background: pink;
+}
+*{
+	font-size:25px;
+}
+/*large screens*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.parent{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background:#ff33ea;
+}
+.child1{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:white;
+}
+.child2{
+	width:100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background: grey;
+}
+*{
+	font-size:25px;
+}
+}
